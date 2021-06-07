@@ -1,0 +1,4256 @@
+18:59:47.324 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:59:48.591 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:59:49.136 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+18:59:54.163 [main] DEBUG com.intuit.karate - response time in milliseconds: 5025
+1 < 200
+1 < Date: Sun, 06 Jun 2021 22:59:54 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+18:59:54.183 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:9
+Then assert response == #regex ^[0-9]*$
+>>>> js failed:
+01: response == #regex ^[0-9]*$
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:12 Expected an operand but found private_ident
+response == #regex ^[0-9]*$
+            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.assertTrue(ScenarioEngine.java:237)
+- com.intuit.karate.ScenarioActions.assertTrue(ScenarioActions.java:242)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:examples/users/hashbroken.feature:9
+19:01:00.386 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:01:01.312 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:01:01.760 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:01:06.792 [main] DEBUG com.intuit.karate - response time in milliseconds: 5030
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:01:06 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+19:01:06.796 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:9
+Then assert response == '#regex ^[0-9]*$'
+did not evaluate to 'true': response == '#regex ^[0-9]*$'
+classpath:examples/users/hashbroken.feature:9
+19:04:09.333 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:04:10.314 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:10.753 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:04:15.777 [main] DEBUG com.intuit.karate - response time in milliseconds: 5021
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:04:15 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+3
+19:04:15.780 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:9
+Then assert response == '#regex \\^[0-9]\\*\\$'
+did not evaluate to 'true': response == '#regex \\^[0-9]\\*\\$'
+classpath:examples/users/hashbroken.feature:9
+19:05:16.332 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:05:17.246 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:17.666 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:05:22.688 [main] DEBUG com.intuit.karate - response time in milliseconds: 5020
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:05:22 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+4
+19:05:55.737 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:05:56.683 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:57.116 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:06:02.148 [main] DEBUG com.intuit.karate - response time in milliseconds: 5030
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:06:02 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+5
+19:06:02.157 [main] INFO  com.intuit.karate - [print] 5 
+19:09:08.316 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:09:09.307 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:09:09.758 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:09:14.790 [main] DEBUG com.intuit.karate - response time in milliseconds: 5030
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:09:14 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+6
+19:09:14.797 [main] INFO  com.intuit.karate - [print] 6 
+19:09:14.810 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:09:14.814 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 1
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+5
+
+19:09:14.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 405
+1 < Allow: POST
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:09:14 GMT
+1 < Content-Length: 18
+GET Not Supported
+
+19:09:14.818 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response == "jx+j'"
+did not evaluate to 'true': response == "jx+j'"
+classpath:examples/users/hashbroken.feature:18
+19:10:05.294 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:10:06.333 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:10:06.785 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:10:11.828 [main] DEBUG com.intuit.karate - response time in milliseconds: 5040
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:10:11 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+7
+19:10:11.837 [main] INFO  com.intuit.karate - [print] 7 
+19:10:11.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:10:11.856 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 1
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+5
+
+19:10:11.858 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 405
+1 < Allow: POST
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:10:11 GMT
+1 < Content-Length: 18
+GET Not Supported
+
+19:10:11.860 [main] INFO  com.intuit.karate - [print] GET Not Supported
+ 
+19:10:11.861 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:19
+Then assert response == "jx+j'"
+did not evaluate to 'true': response == "jx+j'"
+classpath:examples/users/hashbroken.feature:19
+19:13:25.331 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:13:26.340 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:13:26.787 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:13:31.821 [main] DEBUG com.intuit.karate - response time in milliseconds: 5032
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:13:31 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+8
+19:13:31.831 [main] INFO  com.intuit.karate - [print] 8 
+19:13:31.846 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:13:31.849 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:13:31.851 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 405
+1 < Allow: GET
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:13:31 GMT
+1 < Content-Length: 19
+POST Not Supported
+
+19:13:31.852 [main] INFO  com.intuit.karate - [print] POST Not Supported
+ 
+19:13:31.853 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response == "jx+j'"
+did not evaluate to 'true': response == "jx+j'"
+classpath:examples/users/hashbroken.feature:18
+19:14:01.650 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:14:02.582 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:14:02.988 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:14:08.015 [main] DEBUG com.intuit.karate - response time in milliseconds: 5024
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:14:08 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+9
+19:14:08.024 [main] INFO  com.intuit.karate - [print] 9 
+19:14:08.035 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:14:08.038 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:14:08.040 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:14:08 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:14:08.042 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+19:14:08.043 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response == "jx+j'"
+did not evaluate to 'true': response == "jx+j'"
+classpath:examples/users/hashbroken.feature:18
+19:17:36.242 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:17:37.203 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:17:37.613 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:17:42.646 [main] DEBUG com.intuit.karate - response time in milliseconds: 5032
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:17:42 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+10
+19:17:42.653 [main] INFO  com.intuit.karate - [print] 10 
+19:17:42.668 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:17:42.671 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/1
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:17:42.673 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:17:42 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:17:42.676 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+19:18:16.733 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:18:17.662 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:18:18.085 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:18:23.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 5021
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:18:23 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+11
+19:18:23.114 [main] INFO  com.intuit.karate - [print] 11 
+19:18:23.129 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:18:23.133 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:18:23.134 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:18:23 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:18:23.136 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:19:47.650 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:19:48.610 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:19:49.096 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:19:54.133 [main] DEBUG com.intuit.karate - response time in milliseconds: 5035
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:19:54 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+12
+19:19:54.143 [main] INFO  com.intuit.karate - [print] 12 
+19:19:54.158 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:19:54.162 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:19:54.164 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:19:54 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:19:54.166 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:17
+Then assert response == "Hash not found"
+did not evaluate to 'true': response == "Hash not found"
+classpath:examples/users/hashbroken.feature:17
+19:19:54.177 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:19:54.181 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:19:54.182 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:19:54 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:23:00.310 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:23:01.236 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:23:01.658 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:23:06.682 [main] DEBUG com.intuit.karate - response time in milliseconds: 5022
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:23:06 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+13
+19:23:06.689 [main] INFO  com.intuit.karate - [print] 13 
+19:23:06.703 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:23:06.706 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:23:06.707 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:23:06 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:23:06.710 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:23:06.711 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response == "Hash not found"
+did not evaluate to 'true': response == "Hash not found"
+classpath:examples/users/hashbroken.feature:18
+19:23:06.724 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:23:06.727 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:23:06.728 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:23:06 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:23:36.854 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:23:37.734 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:23:38.162 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:23:43.183 [main] DEBUG com.intuit.karate - response time in milliseconds: 5019
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:23:43 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+14
+19:23:43.190 [main] INFO  com.intuit.karate - [print] 14 
+19:23:43.201 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:23:43.204 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:23:43.206 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:23:43 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:23:43.208 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:23:43.208 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response == 'Hash not found'
+did not evaluate to 'true': response == 'Hash not found'
+classpath:examples/users/hashbroken.feature:18
+19:23:43.221 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:23:43.225 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:23:43.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:23:43 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:24:10.684 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:24:11.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:12.017 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:24:17.047 [main] DEBUG com.intuit.karate - response time in milliseconds: 5028
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:24:17 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+15
+19:24:17.056 [main] INFO  com.intuit.karate - [print] 15 
+19:24:17.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:17.072 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:24:17.073 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:24:17 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:24:17.074 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:24:17.089 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response == Hash not found
+>>>> js failed:
+01: response == Hash not found
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:17 Expected ; but found not
+response == Hash not found
+                 ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.assertTrue(ScenarioEngine.java:237)
+- com.intuit.karate.ScenarioActions.assertTrue(ScenarioActions.java:242)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:examples/users/hashbroken.feature:18
+19:24:17.102 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:17.106 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:24:17.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:24:17 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:25:24.147 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:25:25.052 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:25:25.452 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:25:30.477 [main] DEBUG com.intuit.karate - response time in milliseconds: 5023
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:25:30 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+16
+19:25:30.485 [main] INFO  com.intuit.karate - [print] 16 
+19:25:30.498 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:25:30.500 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:25:30.502 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:25:30 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:25:30.503 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:25:30.518 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:18
+Then assert response contains "Hash not found"
+>>>> js failed:
+01: response contains "Hash not found"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected ; but found contains
+response contains "Hash not found"
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.assertTrue(ScenarioEngine.java:237)
+- com.intuit.karate.ScenarioActions.assertTrue(ScenarioActions.java:242)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:examples/users/hashbroken.feature:18
+19:25:30.530 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:25:30.535 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:25:30.536 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:25:30 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:26:49.074 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:26:49.971 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:26:50.385 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:26:55.413 [main] DEBUG com.intuit.karate - response time in milliseconds: 5027
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:26:55 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+17
+19:26:55.422 [main] INFO  com.intuit.karate - [print] 17 
+19:26:55.434 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:26:55.438 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:26:55.439 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:26:55 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:26:55.441 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:26:55.456 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:26:55.460 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/5
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:26:55.461 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:26:55 GMT
+1 < Content-Length: 88
+1 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:39:14.202 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:39:15.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:15.582 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:39:20.612 [main] DEBUG com.intuit.karate - response time in milliseconds: 5028
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:39:20 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+18
+19:39:20.619 [main] INFO  com.intuit.karate - [print] 18 
+19:39:20.630 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:20.633 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:20.634 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:39:20 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:39:20.636 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:39:20.652 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:20.658 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:39:25.660 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:39:25 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+19
+19:39:25.673 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/19
+2 > Accept: application/json
+2 > Content-Type: text/plain; charset=UTF-8
+2 > Content-Length: 12
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:39:25.674 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:39:25 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:39:25.677 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:34
+Then assert response == '#notnull'
+did not evaluate to 'true': response == '#notnull'
+classpath:examples/users/hashbroken.feature:34
+19:39:25.690 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:25.693 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 12
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+Use existing
+
+19:39:25.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 405
+1 < Allow: POST
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:39:25 GMT
+1 < Content-Length: 18
+GET Not Supported
+
+19:39:25.696 [main] INFO  com.intuit.karate - [print] GET Not Supported
+ 
+19:39:25.714 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:43
+Then assert response contains "TotalRequests:3"
+>>>> js failed:
+01: response contains "TotalRequests:3"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected ; but found contains
+response contains "TotalRequests:3"
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.assertTrue(ScenarioEngine.java:237)
+- com.intuit.karate.ScenarioActions.assertTrue(ScenarioActions.java:242)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:examples/users/hashbroken.feature:43
+19:41:33.141 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:41:34.019 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:41:34.431 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:41:39.467 [main] DEBUG com.intuit.karate - response time in milliseconds: 5034
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:41:39 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+20
+19:41:39.477 [main] INFO  com.intuit.karate - [print] 20 
+19:41:39.490 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:41:39.494 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:41:39.495 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:41:39 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:41:39.497 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:41:39.511 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:41:39.514 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:41:44.516 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:41:44 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+21
+19:41:44.528 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/21
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:41:44.529 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:41:44 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:41:44.539 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:41:44.542 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:41:44.543 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 405
+1 < Allow: POST
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:41:44 GMT
+1 < Content-Length: 18
+GET Not Supported
+
+19:41:44.545 [main] INFO  com.intuit.karate - [print] GET Not Supported
+ 
+19:41:44.565 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+Then assert response contains "TotalRequests:3"
+>>>> js failed:
+01: response contains "TotalRequests:3"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected ; but found contains
+response contains "TotalRequests:3"
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.assertTrue(ScenarioEngine.java:237)
+- com.intuit.karate.ScenarioActions.assertTrue(ScenarioActions.java:242)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:examples/users/hashbroken.feature:41
+19:42:04.609 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:42:05.524 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:05.941 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:42:10.963 [main] DEBUG com.intuit.karate - response time in milliseconds: 5020
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:42:10 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+22
+19:42:10.971 [main] INFO  com.intuit.karate - [print] 22 
+19:42:10.983 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:10.988 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:42:10.989 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:42:10 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:42:10.991 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:42:11.007 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:11.010 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:42:16.011 [main] DEBUG com.intuit.karate - response time in milliseconds: 5000
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:42:16 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+23
+19:42:16.025 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/23
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:42:16.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:42:16 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:42:16.036 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:16.039 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:42:16.041 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 405
+1 < Allow: POST
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:42:16 GMT
+1 < Content-Length: 18
+GET Not Supported
+
+19:42:16.043 [main] INFO  com.intuit.karate - [print] GET Not Supported
+ 
+19:42:16.044 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+Then match response contains "TotalRequests:3"
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'GET Not Supported
+'
+  'TotalRequests:3'
+
+classpath:examples/users/hashbroken.feature:41
+19:42:53.459 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:42:54.388 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:54.819 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:42:59.850 [main] DEBUG com.intuit.karate - response time in milliseconds: 5030
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:42:59 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+24
+19:42:59.857 [main] INFO  com.intuit.karate - [print] 24 
+19:42:59.869 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:59.872 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:42:59.874 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:42:59 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:42:59.875 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:42:59.890 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:59.895 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:43:04.902 [main] DEBUG com.intuit.karate - response time in milliseconds: 5006
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:43:04 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+25
+19:43:04.915 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/25
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:43:04.916 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:43:04 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:43:04.926 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:04.930 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:04.932 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:43:04 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":26,"AverageTime":22738}
+19:43:04.936 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 26,
+  "AverageTime": 22738
+}
+ 
+19:43:04.938 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+Then match response contains "TotalRequests:3"
+match failed: CONTAINS
+  $ | data types don't match (MAP:STRING)
+  {"TotalRequests":26,"AverageTime":22738}
+  'TotalRequests:3'
+
+
+classpath:examples/users/hashbroken.feature:41
+19:43:37.613 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:43:38.594 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:39.021 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:43:44.047 [main] DEBUG com.intuit.karate - response time in milliseconds: 5024
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:43:44 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+26
+19:43:44.054 [main] INFO  com.intuit.karate - [print] 26 
+19:43:44.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.070 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:44.071 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:43:44 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:43:44.074 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:43:44.091 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.095 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:43:49.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 5001
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:43:49 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+27
+19:43:49.108 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/27
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:43:49.109 [main] DEBUG com.intuit.karate - response time in milliseconds: 0
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:43:49 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:43:49.118 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:49.121 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:49.123 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:43:49 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":28,"AverageTime":21114}
+19:43:49.127 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 28,
+  "AverageTime": 21114
+}
+ 
+19:43:49.128 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+Then match response contains "TotalRequests:29"
+match failed: CONTAINS
+  $ | data types don't match (MAP:STRING)
+  {"TotalRequests":28,"AverageTime":21114}
+  'TotalRequests:29'
+
+
+classpath:examples/users/hashbroken.feature:41
+19:45:25.252 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:45:26.182 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:45:26.607 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:45:31.639 [main] DEBUG com.intuit.karate - response time in milliseconds: 5029
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:45:31 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+28
+19:45:31.647 [main] INFO  com.intuit.karate - [print] 28 
+19:45:31.663 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:45:31.667 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:45:31.669 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:45:31 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:45:31.671 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:45:31.692 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:45:31.697 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:45:36.714 [main] DEBUG com.intuit.karate - response time in milliseconds: 5017
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:45:36 GMT
+1 < Content-Length: 2
+1 < Content-Type: text/plain; charset=utf-8
+29
+19:45:36.725 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/29
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:45:36.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:45:36 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:45:36.735 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:45:36.738 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:45:36.740 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:45:36 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":30,"AverageTime":19706}
+19:45:36.747 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 30,
+  "AverageTime": 19706
+}
+ 
+19:45:36.749 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+Then match response contains "TotalRequests:4"
+match failed: CONTAINS
+  $ | data types don't match (MAP:STRING)
+  {"TotalRequests":30,"AverageTime":19706}
+  'TotalRequests:4'
+
+
+classpath:examples/users/hashbroken.feature:41
+19:45:36.764 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:45:36.768 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:45:36.770 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:45:36 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+19:46:45.879 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:46:46.772 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:47.248 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:46:49.270 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2409 milliseconds for url: http://127.0.0.1:8088/hash
+19:46:49.271 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:8
+When method post
+http call failed after 2409 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:8
+19:46:49.287 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:49.291 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:46:51.310 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2020 milliseconds for url: http://127.0.0.1:8088/hash/987977
+19:46:51.310 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:16
+When method get
+http call failed after 2020 milliseconds for url: http://127.0.0.1:8088/hash/987977
+classpath:examples/users/hashbroken.feature:16
+19:46:51.319 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:51.322 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:46:53.349 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2028 milliseconds for url: http://127.0.0.1:8088/hash
+19:46:53.349 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:25
+When method post
+http call failed after 2028 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:25
+19:46:53.356 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:53.359 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:46:55.380 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2022 milliseconds for url: http://127.0.0.1:8088/stats
+19:46:55.380 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+When method get
+http call failed after 2022 milliseconds for url: http://127.0.0.1:8088/stats
+classpath:examples/users/hashbroken.feature:41
+19:46:55.387 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:55.390 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:46:57.405 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2016 milliseconds for url: http://127.0.0.1:8088/hash
+19:46:57.405 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:50
+When method post
+http call failed after 2016 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:50
+19:47:50.162 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:47:51.045 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:47:51.475 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:47:56.502 [main] DEBUG com.intuit.karate - response time in milliseconds: 5024
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:47:56 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+19:47:56.510 [main] INFO  com.intuit.karate - [print] 1 
+19:47:56.521 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:47:56.524 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:47:56.526 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:47:56 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:47:56.527 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:47:56.543 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:47:56.547 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:48:01.549 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:48:01 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+19:48:01.551 [main] INFO  com.intuit.karate - [print] 2 
+19:48:01.562 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:48:01.563 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:48:01 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:48:01.566 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+19:48:01.573 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:48:01.576 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:48:01.578 [main] DEBUG com.intuit.karate - response time in milliseconds: 0
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:48:01 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":220000}
+19:48:01.582 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 220000
+}
+ 
+19:48:01.584 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:43
+Then match response contains "TotalRequests:4"
+match failed: CONTAINS
+  $ | data types don't match (MAP:STRING)
+  {"TotalRequests":2,"AverageTime":220000}
+  'TotalRequests:4'
+
+
+classpath:examples/users/hashbroken.feature:43
+19:48:01.597 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:48:01.601 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:48:01.604 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:48:01 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+19:50:52.111 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:50:53.033 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:50:53.447 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:50:58.484 [main] DEBUG com.intuit.karate - response time in milliseconds: 5036
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:50:58 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+19:50:58.491 [main] INFO  com.intuit.karate - [print] 1 
+19:50:58.504 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:50:58.507 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:50:58.509 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:50:58 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:50:58.512 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:50:58.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:50:58.531 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:51:03.533 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:51:03 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+19:51:03.535 [main] INFO  com.intuit.karate - [print] 2 
+19:51:03.549 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:51:03.550 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:51:03 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:51:03.553 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+19:51:03.560 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:03.562 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:03.564 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:51:03 GMT
+1 < Content-Length: 39
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":65850}
+19:51:03.568 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 65850
+}
+ 
+19:51:03.570 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:43
+Then match response contains "TotalRequests:2"
+match failed: CONTAINS
+  $ | data types don't match (MAP:STRING)
+  {"TotalRequests":2,"AverageTime":65850}
+  'TotalRequests:2'
+
+
+classpath:examples/users/hashbroken.feature:43
+19:51:03.582 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:03.584 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:51:03.587 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:51:03 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+19:54:50.192 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:54:51.116 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:54:51.553 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:54:56.591 [main] DEBUG com.intuit.karate - response time in milliseconds: 5035
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:54:56 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+19:54:56.598 [main] INFO  com.intuit.karate - [print] 1 
+19:54:56.611 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:54:56.614 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:54:56.615 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:54:56 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:54:56.618 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:54:56.633 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:54:56.635 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:55:01.637 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:55:01 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+19:55:01.639 [main] INFO  com.intuit.karate - [print] 2 
+19:55:01.650 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:55:01.652 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:55:01 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:55:01.653 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+19:55:01.662 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:01.665 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:55:01.666 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:55:01 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+19:55:01.670 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+19:55:01.686 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:43
+Then match response contains """TotalRequests"""+": 2"
+>>>> js failed:
+01: """TotalRequests"""+": 2"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:3 Expected ; but found TotalRequests
+"""TotalRequests"""+": 2"
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2202)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1822)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:185)
+
+classpath:examples/users/hashbroken.feature:43
+19:55:01.698 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:01.702 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:55:01.705 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:55:01 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+19:58:14.504 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:58:15.390 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:15.810 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:58:17.843 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2377 milliseconds for url: http://127.0.0.1:8088/hash
+19:58:17.843 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:8
+When method post
+http call failed after 2377 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:8
+19:58:17.861 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:17.865 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:58:19.879 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2015 milliseconds for url: http://127.0.0.1:8088/hash/987977
+19:58:19.879 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:16
+When method get
+http call failed after 2015 milliseconds for url: http://127.0.0.1:8088/hash/987977
+classpath:examples/users/hashbroken.feature:16
+19:58:19.886 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:19.890 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:58:21.917 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2027 milliseconds for url: http://127.0.0.1:8088/hash
+19:58:21.917 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:25
+When method post
+http call failed after 2027 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:25
+19:58:21.924 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:21.927 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:58:23.948 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2022 milliseconds for url: http://127.0.0.1:8088/stats
+19:58:23.949 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+When method get
+http call failed after 2022 milliseconds for url: http://127.0.0.1:8088/stats
+classpath:examples/users/hashbroken.feature:41
+19:58:23.955 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:23.958 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:58:25.989 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2032 milliseconds for url: http://127.0.0.1:8088/hash
+19:58:25.990 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:50
+When method post
+http call failed after 2032 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:50
+19:58:46.028 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:58:46.918 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:47.336 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:58:52.367 [main] DEBUG com.intuit.karate - response time in milliseconds: 5030
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:58:52 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+19:58:52.374 [main] INFO  com.intuit.karate - [print] 1 
+19:58:52.387 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:52.391 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:58:52.393 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:58:52 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:58:52.396 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:58:52.411 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:52.415 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:58:57.416 [main] DEBUG com.intuit.karate - response time in milliseconds: 5001
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:58:57 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+19:58:57.419 [main] INFO  com.intuit.karate - [print] 2 
+19:58:57.429 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:58:57.430 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Sun, 06 Jun 2021 23:58:57 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+19:58:57.432 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+19:58:57.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:57.442 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:58:57.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:58:57 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+19:58:57.447 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+19:58:57.462 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:43
+Then match response.TotalTequest == 2
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  2
+
+classpath:examples/users/hashbroken.feature:43
+19:58:57.474 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:57.477 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+19:58:57.479 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:58:57 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+19:59:51.068 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:59:51.940 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:52.356 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+19:59:57.384 [main] DEBUG com.intuit.karate - response time in milliseconds: 5026
+1 < 200
+1 < Date: Sun, 06 Jun 2021 23:59:57 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+19:59:57.391 [main] INFO  com.intuit.karate - [print] 1 
+19:59:57.402 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:57.405 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:59:57.406 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Sun, 06 Jun 2021 23:59:57 GMT
+1 < Content-Length: 15
+Hash not found
+
+19:59:57.409 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+19:59:57.425 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:57.430 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+20:00:02.431 [main] DEBUG com.intuit.karate - response time in milliseconds: 5001
+1 < 200
+1 < Date: Mon, 07 Jun 2021 00:00:02 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+20:00:02.434 [main] INFO  com.intuit.karate - [print] 2 
+20:00:02.450 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+20:00:02.452 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+2 < 200
+2 < Date: Mon, 07 Jun 2021 00:00:02 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+20:00:02.453 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+20:00:02.463 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:00:02.468 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:00:02.470 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Mon, 07 Jun 2021 00:00:02 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":141450}
+20:00:02.474 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 141450
+}
+ 
+20:00:02.503 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:00:02.507 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+20:00:02.509 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Mon, 07 Jun 2021 00:00:02 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+21:53:29.558 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:53:31.014 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:53:31.975 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:53:37.050 [main] DEBUG com.intuit.karate - response time in milliseconds: 5067
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:53:37 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+21:53:37.088 [main] INFO  com.intuit.karate - [print] 1 
+21:53:37.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:53:37.170 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:53:37.175 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 01:53:37 GMT
+1 < Content-Length: 15
+Hash not found
+
+21:53:37.184 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+21:53:37.231 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:53:37.240 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:53:42.243 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:53:42 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+21:53:42.254 [main] INFO  com.intuit.karate - [print] 2 
+21:53:42.327 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:53:42.332 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+2 < 200
+2 < Date: Mon, 07 Jun 2021 01:53:42 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+21:53:42.341 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+21:53:42.397 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:53:42.412 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:53:42.419 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:53:42 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+21:53:42.441 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+21:53:42.511 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:53:42.518 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+21:53:42.523 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:53:42 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+21:54:06.509 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:54:07.848 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:08.415 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:54:10.484 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2548 milliseconds for url: http://127.0.0.1:8088/hash
+21:54:10.486 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:8
+When method post
+http call failed after 2548 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:8
+21:54:10.548 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:10.564 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:12.602 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2042 milliseconds for url: http://127.0.0.1:8088/hash/987977
+21:54:12.604 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:16
+When method get
+http call failed after 2042 milliseconds for url: http://127.0.0.1:8088/hash/987977
+classpath:examples/users/hashbroken.feature:16
+21:54:12.650 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:12.668 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:54:14.714 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2050 milliseconds for url: http://127.0.0.1:8088/hash
+21:54:14.715 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:25
+When method post
+http call failed after 2050 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:25
+21:54:14.756 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:14.770 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:16.796 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2030 milliseconds for url: http://127.0.0.1:8088/stats
+21:54:16.797 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:41
+When method get
+http call failed after 2030 milliseconds for url: http://127.0.0.1:8088/stats
+classpath:examples/users/hashbroken.feature:41
+21:54:16.838 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:16.852 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+21:54:18.888 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8088 [/127.0.0.1] failed: Connection refused: no further information, http call failed after 2039 milliseconds for url: http://127.0.0.1:8088/hash
+21:54:18.890 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:50
+When method post
+http call failed after 2039 milliseconds for url: http://127.0.0.1:8088/hash
+classpath:examples/users/hashbroken.feature:50
+21:55:10.501 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:55:12.021 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:12.577 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:55:17.649 [main] DEBUG com.intuit.karate - response time in milliseconds: 5065
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:55:17 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+21:55:17.677 [main] INFO  com.intuit.karate - [print] 1 
+21:55:17.723 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:17.731 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:55:17.733 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 01:55:17 GMT
+1 < Content-Length: 15
+Hash not found
+
+21:55:17.736 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+21:55:17.762 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:17.768 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:55:22.771 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:55:22 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+21:55:22.781 [main] INFO  com.intuit.karate - [print] 2 
+21:55:22.838 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:55:22.843 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 01:55:22 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+21:55:22.850 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+21:55:22.892 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:22.905 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:55:22.911 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:55:22 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":203000}
+21:55:22.932 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 203000
+}
+ 
+21:55:23.050 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:23.059 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+21:55:23.063 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:55:23 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+21:58:06.244 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:58:07.555 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:08.079 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:58:13.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 5088
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:13 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+21:58:13.211 [main] INFO  com.intuit.karate - [print] 1 
+21:58:13.273 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:13.292 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:58:13.298 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 01:58:13 GMT
+1 < Content-Length: 15
+Hash not found
+
+21:58:13.306 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+21:58:13.362 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:13.370 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:58:18.373 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:18 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+21:58:18.381 [main] INFO  com.intuit.karate - [print] 2 
+21:58:18.436 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:58:18.440 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 01:58:18 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+21:58:18.448 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+21:58:18.495 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:36
+Then assert reponse == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+>>>> js failed:
+01: reponse == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "reponse" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/users/hashbroken.feature:36
+21:58:18.552 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:18.566 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:58:18.572 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:18 GMT
+1 < Content-Length: 39
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":65000}
+21:58:18.591 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 65000
+}
+ 
+21:58:18.676 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:18.684 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+21:58:18.688 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:18 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+21:58:47.212 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:58:48.490 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:49.080 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:58:54.147 [main] DEBUG com.intuit.karate - response time in milliseconds: 5060
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:54 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+21:58:54.182 [main] INFO  com.intuit.karate - [print] 1 
+21:58:54.219 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:54.224 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:58:54.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 01:58:54 GMT
+1 < Content-Length: 15
+Hash not found
+
+21:58:54.229 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+21:58:54.253 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:54.259 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+21:58:59.261 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:59 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+21:58:59.267 [main] INFO  com.intuit.karate - [print] 2 
+21:58:59.308 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:58:59.312 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 01:58:59 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+21:58:59.321 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+21:58:59.362 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:36
+Then assert reponse == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+>>>> js failed:
+01: reponse == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "reponse" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/users/hashbroken.feature:36
+21:58:59.408 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:59.421 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:58:59.426 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:59 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+21:58:59.449 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+21:58:59.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:58:59.554 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+21:58:59.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < Date: Mon, 07 Jun 2021 01:58:59 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:02:54.817 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:56.432 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:57.335 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:03:02.402 [main] DEBUG com.intuit.karate - response time in milliseconds: 5061
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:03:02 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:03:02.428 [main] INFO  com.intuit.karate - [print] 1 
+22:03:02.464 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:02.473 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:03:02.475 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:03:02 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:03:02.478 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:03:02.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:02.525 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:03:07.529 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:03:07 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:03:07.537 [main] INFO  com.intuit.karate - [print] 2 
+22:03:07.584 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:03:07.589 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:03:07 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:03:07.598 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:03:07.636 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:07.643 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:03:07.646 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:03:07 GMT
+1 < Content-Length: 39
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":98500}
+22:03:07.656 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 98500
+}
+ 
+22:03:07.701 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:07.709 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:03:07.712 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:03:07 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:06:00.058 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:01.721 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:02.332 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:06:07.413 [main] DEBUG com.intuit.karate - response time in milliseconds: 5075
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:06:07 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:06:07.450 [main] INFO  com.intuit.karate - [print] 1 
+22:06:07.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:07.528 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:06:07.530 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:06:07 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:06:07.535 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:06:07.571 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:07.581 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:06:12.586 [main] DEBUG com.intuit.karate - response time in milliseconds: 5005
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:06:12 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:06:12.595 [main] INFO  com.intuit.karate - [print] 2 
+22:06:12.652 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:06:12.656 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:06:12 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:06:12.665 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:06:12.707 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:12.716 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:06:12.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:06:12 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":372450}
+22:06:12.732 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 372450
+}
+ 
+22:06:12.795 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:12.803 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:06:12.808 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:06:12 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:09:14.101 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:09:15.592 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:16.149 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:09:21.210 [main] DEBUG com.intuit.karate - response time in milliseconds: 5055
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:09:21 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:09:21.245 [main] INFO  com.intuit.karate - [print] 1 
+22:09:21.247 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:11
+Then deff jobid = response
+no step-definition method match found for: deff jobid = response
+classpath:examples/users/hashbroken.feature:11
+22:09:21.303 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:21.313 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:21.315 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:09:21 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:09:21.320 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:09:21.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:21.370 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:09:26.373 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:09:26 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:09:26.380 [main] INFO  com.intuit.karate - [print] 2 
+22:09:26.432 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:09:26.437 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:09:26 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:09:26.446 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:09:26.493 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:26.504 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:26.510 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:09:26 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+22:09:26.531 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+22:09:26.617 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:26.623 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:09:26.626 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:09:26 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:10:38.861 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:10:40.001 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:40.557 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:10:45.617 [main] DEBUG com.intuit.karate - response time in milliseconds: 5054
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:10:45 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:10:45.647 [main] INFO  com.intuit.karate - [print] 1 
+22:10:45.650 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:11
+Then deff jobid = response
+no step-definition method match found for: deff jobid = response
+classpath:examples/users/hashbroken.feature:11
+22:10:45.715 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:45.731 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:45.735 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:10:45 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:10:45.739 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:10:45.787 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:45.798 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:10:50.802 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:10:50 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:10:50.808 [main] INFO  com.intuit.karate - [print] 2 
+22:10:50.849 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:10:50.852 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:10:50 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:10:50.857 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:10:50.872 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:50.877 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:50.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:10:50 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+22:10:50.885 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+22:10:50.919 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:50.923 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:10:50.926 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:10:50 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:12:20.044 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:12:21.746 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:22.343 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:12:27.417 [main] DEBUG com.intuit.karate - response time in milliseconds: 5065
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:12:27 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:12:27.457 [main] INFO  com.intuit.karate - [print] 1 
+22:12:27.507 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/1
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:12:27.510 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:12:27 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+ZLBZMe+COib4CgwyGY68xWVtW8eHxZIWyXGv2PqH4jrkkgr6E3+1aadZ+GalgfpJI2jk7YRHnhVZXd+yQUUn8Q==
+22:12:27.517 [main] INFO  com.intuit.karate - [print] ZLBZMe+COib4CgwyGY68xWVtW8eHxZIWyXGv2PqH4jrkkgr6E3+1aadZ+GalgfpJI2jk7YRHnhVZXd+yQUUn8Q== 
+22:12:27.542 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:19
+Then assert response == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+did not evaluate to 'true': response == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+classpath:examples/users/hashbroken.feature:19
+22:12:27.595 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:27.606 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:12:27.610 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:12:27 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:12:27.618 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:12:27.651 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:27.662 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:12:32.671 [main] DEBUG com.intuit.karate - response time in milliseconds: 5008
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:12:32 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:12:32.680 [main] INFO  com.intuit.karate - [print] 2 
+22:12:32.690 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:12:32.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:12:32 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:12:32.700 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:12:32.739 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:32.752 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:12:32.758 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:12:32 GMT
+1 < Content-Length: 39
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":99300}
+22:12:32.779 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 99300
+}
+ 
+22:12:32.845 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:32.851 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:12:32.856 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:12:32 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:13:22.499 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:13:24.393 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:25.095 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:13:30.164 [main] DEBUG com.intuit.karate - response time in milliseconds: 5061
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:13:30 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:13:30.193 [main] INFO  com.intuit.karate - [print] 1 
+22:13:30.242 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/1
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:13:30.246 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:13:30 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+ZLBZMe+COib4CgwyGY68xWVtW8eHxZIWyXGv2PqH4jrkkgr6E3+1aadZ+GalgfpJI2jk7YRHnhVZXd+yQUUn8Q==
+22:13:30.254 [main] INFO  com.intuit.karate - [print] ZLBZMe+COib4CgwyGY68xWVtW8eHxZIWyXGv2PqH4jrkkgr6E3+1aadZ+GalgfpJI2jk7YRHnhVZXd+yQUUn8Q== 
+22:13:30.287 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:19
+Then assert response == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+did not evaluate to 'true': response == "NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g=="
+classpath:examples/users/hashbroken.feature:19
+22:13:30.362 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:30.375 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/987977
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:13:30.378 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:13:30 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:13:30.386 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:13:30.425 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:30.444 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:13:35.450 [main] DEBUG com.intuit.karate - response time in milliseconds: 5005
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:13:35 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:13:35.456 [main] INFO  com.intuit.karate - [print] 2 
+22:13:35.464 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:13:35.468 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:13:35 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:13:35.473 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:13:35.511 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:35.523 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:13:35.527 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:13:35 GMT
+1 < Content-Length: 39
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":78700}
+22:13:35.544 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 78700
+}
+ 
+22:13:35.643 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:35.661 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:13:35.669 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:13:35 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:16:44.051 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:16:45.237 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:45.733 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:16:50.803 [main] DEBUG com.intuit.karate - response time in milliseconds: 5064
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:16:50 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:16:50.813 [main] INFO  com.intuit.karate - [print] 1 
+22:16:50.831 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:50.837 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:16:50.838 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:16:50 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:16:50.841 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:16:50.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:50.871 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/-3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:16:50.873 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:16:50 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:16:50.875 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:16:50.886 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:50.891 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:16:55.894 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:16:55 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:16:55.900 [main] INFO  com.intuit.karate - [print] 2 
+22:16:55.939 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:16:55.943 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:16:55 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:16:55.950 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:16:55.982 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:55.993 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:16:55.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:16:55 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+22:16:56.021 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+22:16:56.072 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:56.076 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:16:56.078 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:16:56 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:19:22.772 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:19:24.037 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:24.556 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:19:29.613 [main] DEBUG com.intuit.karate - response time in milliseconds: 5051
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:19:29 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:19:29.645 [main] INFO  com.intuit.karate - [print] 1 
+22:19:29.691 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:29.706 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:19:29.711 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:19:29 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:19:29.715 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:19:29.740 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:29.744 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:19:29.746 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:19:29 GMT
+1 < Content-Length: 45
+strconv.Atoi: parsing "hash": invalid syntax
+
+22:19:29.748 [main] INFO  com.intuit.karate - [print] strconv.Atoi: parsing "hash": invalid syntax
+ 
+22:19:29.749 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:26
+Then match response contains "Hash not found"
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'strconv.Atoi: parsing "hash": invalid syntax
+'
+  'Hash not found'
+
+classpath:examples/users/hashbroken.feature:26
+22:19:29.771 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:29.776 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/-3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:19:29.777 [main] DEBUG com.intuit.karate - response time in milliseconds: 0
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:19:29 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:19:29.780 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:19:29.793 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:29.798 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:19:34.801 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:19:34 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:19:34.807 [main] INFO  com.intuit.karate - [print] 2 
+22:19:34.848 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:19:34.852 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:19:34 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:19:34.858 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:19:34.886 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:34.901 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:19:34.907 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:19:34 GMT
+1 < Content-Length: 40
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":416050}
+22:19:34.925 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 416050
+}
+ 
+22:19:35.007 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:35.014 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:19:35.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:19:35 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:22:07.127 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:22:08.385 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:08.934 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:22:14.011 [main] DEBUG com.intuit.karate - response time in milliseconds: 5071
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:22:13 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:22:14.044 [main] INFO  com.intuit.karate - [print] 1 
+22:22:14.079 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:14.088 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:22:14.091 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:22:14 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:22:14.097 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:22:14.137 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:14.144 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/1.2
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:22:14.147 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:22:14 GMT
+1 < Content-Length: 44
+strconv.Atoi: parsing "1.2": invalid syntax
+
+22:22:14.150 [main] INFO  com.intuit.karate - [print] strconv.Atoi: parsing "1.2": invalid syntax
+ 
+22:22:14.153 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:26
+Then match response contains "Hash not found"
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'strconv.Atoi: parsing "1.2": invalid syntax
+'
+  'Hash not found'
+
+classpath:examples/users/hashbroken.feature:26
+22:22:14.186 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:14.191 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/-3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:22:14.195 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:22:14 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:22:14.198 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:22:14.218 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:14.225 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:22:19.229 [main] DEBUG com.intuit.karate - response time in milliseconds: 5003
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:22:19 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:22:19.236 [main] INFO  com.intuit.karate - [print] 2 
+22:22:19.280 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:22:19.285 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:22:19 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:22:19.293 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:22:19.330 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:19.342 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:22:19.346 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:22:19 GMT
+1 < Content-Length: 39
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":92350}
+22:22:19.369 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 92350
+}
+ 
+22:22:19.472 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:19.482 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:22:19.486 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:22:19 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:26:09.002 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:26:10.357 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:10.924 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:26:15.990 [main] DEBUG com.intuit.karate - response time in milliseconds: 5062
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:26:15 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:26:16.003 [main] INFO  com.intuit.karate - [print] 1 
+22:26:16.020 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:16.024 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:26:16.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:26:16 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:26:16.028 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:26:16.049 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:16.054 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/4546545454545454545456454545645646579545645456454546549848989789787897897878978789787897897879884651215
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:26:16.056 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:26:16 GMT
+1 < Content-Length: 148
+strconv.Atoi: parsing "4546545454545454545456454545645646579545645456454546549848989789787897897878978789787897897879884651215": value out of range
+
+22:26:16.058 [main] INFO  com.intuit.karate - [print] strconv.Atoi: parsing "4546545454545454545456454545645646579545645456454546549848989789787897897878978789787897897879884651215": value out of range
+ 
+22:26:16.060 [main] ERROR com.intuit.karate - classpath:examples/users/hashbroken.feature:26
+Then match response contains "Hash not found"
+match failed: CONTAINS
+  $ | actual does not contain expected (STRING:STRING)
+  'strconv.Atoi: parsing "4546545454545454545456454545645646579545645456454546549848989789787897897878978789787897897879884651215": value out of range
+'
+  'Hash not found'
+
+classpath:examples/users/hashbroken.feature:26
+22:26:16.079 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:16.082 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/-3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:26:16.085 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:26:16 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:26:16.086 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:26:16.097 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:16.102 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:26:21.106 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:26:21 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:26:21.111 [main] INFO  com.intuit.karate - [print] 2 
+22:26:21.153 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:26:21.157 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:26:21 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:26:21.165 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:26:21.193 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:21.202 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:26:21.207 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:26:21 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+22:26:21.228 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+22:26:21.265 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:21.269 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:26:21.272 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:26:21 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
+22:30:56.550 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:30:57.824 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:30:58.310 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NOTangrymonkey"}
+
+22:31:03.374 [main] DEBUG com.intuit.karate - response time in milliseconds: 5058
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:31:03 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+1
+22:31:03.402 [main] INFO  com.intuit.karate - [print] 1 
+22:31:03.451 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:03.459 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:31:03.461 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:31:03 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:31:03.465 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:31:03.485 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:03.491 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/hash/-3
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:31:03.492 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < X-Content-Type-Options: nosniff
+1 < Date: Mon, 07 Jun 2021 02:31:03 GMT
+1 < Content-Length: 15
+Hash not found
+
+22:31:03.494 [main] INFO  com.intuit.karate - [print] Hash not found
+ 
+22:31:03.504 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:03.508 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"angrymonkey"}
+
+22:31:08.510 [main] DEBUG com.intuit.karate - response time in milliseconds: 5002
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:31:08 GMT
+1 < Content-Length: 1
+1 < Content-Type: text/plain; charset=utf-8
+2
+22:31:08.517 [main] INFO  com.intuit.karate - [print] 2 
+22:31:08.558 [main] DEBUG com.intuit.karate - request:
+2 > GET http://127.0.0.1:8088/hash/2
+2 > Accept: application/json
+2 > Host: 127.0.0.1:8088
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:31:08.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+2 < 200
+2 < Date: Mon, 07 Jun 2021 02:31:08 GMT
+2 < Content-Length: 88
+2 < Content-Type: text/plain; charset=utf-8
+NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g==
+22:31:08.568 [main] INFO  com.intuit.karate - [print] NN0PAKtieayiTY8/Qd53AeMzHkbvZDdwYYiDnwtDdv/FIWvcy1sKCb7qi7Nu8Q8Cd/MqjQeyCI0pWKDGp74A1g== 
+22:31:08.604 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:08.618 [main] DEBUG com.intuit.karate - request:
+1 > GET http://127.0.0.1:8088/stats
+1 > Accept: application/json
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:31:08.623 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:31:08 GMT
+1 < Content-Length: 35
+1 < Content-Type: text/plain; charset=utf-8
+{"TotalRequests":2,"AverageTime":0}
+22:31:08.640 [main] INFO  com.intuit.karate - [print] {
+  "TotalRequests": 2,
+  "AverageTime": 0
+}
+ 
+22:31:08.737 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:08.752 [main] DEBUG com.intuit.karate - request:
+1 > POST http://127.0.0.1:8088/hash
+1 > Accept: application/json
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: 127.0.0.1:8088
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+shutdown
+
+22:31:08.760 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < Date: Mon, 07 Jun 2021 02:31:08 GMT
+1 < Content-Length: 0
+1 < Content-Type: text/plain; charset=utf-8
+
